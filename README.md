@@ -21,7 +21,7 @@ python calculadora.py
 ## Funcionalidades
 
 - Adição, subtração, multiplicação e divisão.
-- Cálculos com porcentagem (%).
+- Retorno do resto da divisão de ambos operandos (%).
 - Botões para limpar a entrada (CE e C).
 - Funcionalidade de exclusão (<) para corrigir a entrada.
 - Alternar sinal (+/-) para números positivos/negativos.
