@@ -10,7 +10,7 @@ class calculadora (ctk.CTk):
         # Definir a cor de fundo da janela
         self.configure(fg_color="#1f1f1f")
         self.entrada = ctk.StringVar()
-        self.entradal = ctk.CTkEntry(self, textvariable=self.entrada, width=350, height=50, border_color='#1f1f1f', justify="right", fg_color='#1f1f1f', font=('Arial', 25), state="readonly").grid(row = 0, columnspan=4, pady=10)
+        self.entradal = ctk.CTkEntry(self, textvariable=self.entrada, width=350, height=50, border_color='#1f1f1f', justify="right", fg_color='#1f1f1f', font=('Arial', 40), state="readonly", text_color='white').grid(row = 0, columnspan=4, pady=10)
         self.limpar_entry = False
         botoes = [
             '%', 'CE', 'C',"<",
